@@ -33,7 +33,17 @@ The conversation interface is an Alexa+ web simulation using explicit scenario r
 
 ## Submission status
 
-Public repository URL, public demo video, final eligibility review and official Devpost submission remain outstanding. Public hosting access has not been approved. Do not claim a submitted entry or a working PayPal payment until verified.
+Public demo: https://homerelay-hamood.hamood-al-du-3093.chatgpt.site
+
+The complete source snapshot is included in `source.zip`. Extract it into a new directory before running the commands above:
+
+```sh
+mkdir source
+cd source
+unzip ../source.zip
+```
+
+The source snapshot matches the verified deployed implementation. Public video upload and official Devpost submission remain outstanding. This is not yet an officially submitted entry.
 
 ## License
 
