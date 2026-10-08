@@ -4,7 +4,7 @@ Turn a disrupted household morning into a workable schedule with clear handoffs 
 
 [Try the public demo](https://homerelay-hamood.hamood-al-du-3093.chatgpt.site)
 
-Built during the **Build, Ship, Shape: Amazon Developer Hackathon**, starting October 7, 2026. Proposed primary track: **Alexa+**. Official submission is not confirmed. Public source: https://github.com/hamoodaldurey-create/homerelay. Public English-captioned demonstration: https://www.youtube.com/watch?v=0URpycdpzP0 (1:54).
+Built during the **Build, Ship, Shape: Amazon Developer Hackathon**, starting October 7, 2026. **Submitted October 8, 2026 to the Alexa+ track.** Devpost confirmed “Project submitted!” and lists the entry under the hackathon. [Official entry](https://devpost.com/software/homerelay-742nom). Public source: https://github.com/hamoodaldurey-create/homerelay. Public English-captioned demonstration: https://www.youtube.com/watch?v=0URpycdpzP0 (1:54).
 
 ## The problem and the working flow
 
@@ -62,9 +62,9 @@ pnpm start
 
 The managed Sites environment uses its supervised preview and publishing workflow. Deploy through Sites, or adapt the logical D1 binding for your own Cloudflare account. Generate a new migration only after changing `db/schema.ts`.
 
-The 17 regression tests cover feasible handoffs, capability shortages, alternative owners, immutable inputs, rejected stale/edited drafts, persisted schedules, unresolved completion, legacy records, input ambiguity, and MCP HTTP behavior. `scripts/check-runtime.mjs` also passed against the built Worker and a fresh local D1 database: page rendering, MCP lifecycle/discovery/tools, approval/reload, stale-write handling, partial plans, completion rules, workspace isolation, and origin checks. `SUBMISSION.md` contains the entry draft, evidence limits, product feedback, and demo sequence.
+The 17 regression tests cover feasible handoffs, capability shortages, alternative owners, immutable inputs, rejected stale/edited drafts, persisted schedules, unresolved completion, legacy records, input ambiguity, and MCP HTTP behavior. `scripts/check-runtime.mjs` also passed against the built Worker and a fresh local D1 database: page rendering, MCP lifecycle/discovery/tools, approval/reload, stale-write handling, partial plans, completion rules, workspace isolation, and origin checks. `SUBMISSION.md` contains the submitted entry notes, evidence limits, product feedback, and demo sequence.
 
-## Limits and submission work remaining
+## Prototype limits
 
 - No live Alexa+/device connection or LLM interpretation; this is a real MCP server plus an explicit-scenario web simulation.
 - No external messages or independently verified household acknowledgments.
@@ -80,4 +80,4 @@ MIT. Bundled dependencies retain their own licenses.
 
 The full tested source is in `source.zip`. Extract it into a new directory before running the commands above. The snapshot includes app routes, MCP tools, planner, tests, migration, assets, and the locked dependency setup.
 
-Official entry status: awaiting Amazon hackathon registration and eligibility/rules agreement in Devpost. Video publication is complete; competition submission is not confirmed.
+Official entry status: submitted on October 8, 2026. Entry: https://devpost.com/software/homerelay-742nom. Devpost permits edits until October 23, 2026 at 3:00 p.m. EDT. Submission is confirmed; no award or judging outcome is claimed.

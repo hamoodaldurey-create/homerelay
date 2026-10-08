@@ -1,11 +1,13 @@
-# HomeRelay — Amazon entry draft
+# HomeRelay — Amazon hackathon submission
 
-Updated October 8, 2026. **Official competition submission is not confirmed.**
+Updated October 8, 2026. **Official competition submission confirmed.** Devpost displayed “Project submitted!” and lists HomeRelay under **Build, Ship, Shape: Amazon Developer Hackathon**. The selected track is **Alexa+**.
 
 | Field | Current value |
 | --- | --- |
 | Project | HomeRelay |
 | Creator | Hamood Al Durey |
+| Official entry | https://devpost.com/software/homerelay-742nom |
+| Submission status | Submitted October 8, 2026; Devpost submission ID 1224833 |
 | Tagline | When a household morning changes, make every handoff workable. |
 | Primary track | Alexa+ — real MCP server with an explicit web simulation |
 | Demo | https://homerelay-hamood.hamood-al-du-3093.chatgpt.site |
@@ -61,7 +63,7 @@ The first implementation was created October 7, 2026. The October 8 upgrade:
 
 17 focused automated checks pass, alongside TypeScript checks. They cover the identified planning, approval, persistence, input, and HTTP transport cases. A saved-plan JSON round trip verifies that the schedule is retained. A second check against the actual built Worker and a fresh local D1 database passed page rendering, MCP initialization/discovery/tool calls, approval/reload, stale-write rejection, partial planning, unresolved completion rejection, valid acknowledgment, separate workspace state, and origin checks. Publication status is tracked separately from these local runtime checks.
 
-Automated checks do not establish live Alexa+ compatibility, public video availability, or an official competition submission. Browser visual verification remains pending in this session because the available preview could not be reached.
+The public video was published and its watch page and Devpost embed were verified separately. Official submission was confirmed by Devpost's receipt, independently of the automated checks. Browser visual verification of the latest app UI remains pending because the available preview could not be reached. No live Alexa+ compatibility is claimed.
 
 ## Demonstration — target 2 minutes 40 seconds
 
@@ -93,10 +95,12 @@ The target user is a household coordinating a small number of time-sensitive tas
 
 No AWS, Bee, Fire TV, or Ring integration is claimed. Any friction entry must describe an observed event and identify the actual tool involved; no Amazon-platform failure or judging bonus is asserted.
 
-## Before official entry completion
+## Official submission record
 
-- Verify final deployed demo and build evidence.
-- Public MIT repository verified: https://github.com/hamoodaldurey-create/homerelay. Complete source, assets, tests and run instructions are in source.zip.
-- Public English-captioned demonstration published: https://www.youtube.com/watch?v=0URpycdpzP0.
-- Register for the Amazon hackathon, then fill the actual Devpost entry, feedback, and Alexa+ track fields. Do not claim the optional Open Source challenge without a separate qualifying contribution.
-- Complete eligibility/terms and final submission, then retain Devpost's receipt. A prepared draft is not a submitted entry.
+- Amazon hackathon registration, eligibility declarations, Official Rules and Devpost Terms acceptance are complete.
+- Devpost confirmed submission on October 8, 2026: https://devpost.com/software/homerelay-742nom.
+- The entry includes the Alexa+ track selection, project story, technology feedback, public demo/source/video links, thumbnail and source attachment.
+- Public MIT repository: https://github.com/hamoodaldurey-create/homerelay. Complete source, assets, tests and run instructions are in source.zip.
+- Public English-captioned demonstration: https://www.youtube.com/watch?v=0URpycdpzP0.
+- No AWS Builder or optional Open Source mini challenge claim was submitted.
+- Devpost allows edits until October 23, 2026 at 3:00 p.m. EDT. No award or judging outcome is claimed.
