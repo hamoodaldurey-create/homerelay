@@ -4,7 +4,7 @@ Turn a disrupted household morning into a workable schedule with clear handoffs 
 
 [Try the public demo](https://homerelay-hamood.hamood-al-du-3093.chatgpt.site)
 
-Built during the **Build, Ship, Shape: Amazon Developer Hackathon**, starting October 7, 2026. Proposed primary track: **Alexa+**. Official submission is not confirmed. Public source: https://github.com/hamoodaldurey-create/homerelay. An updated public English demo video is still required.
+Built during the **Build, Ship, Shape: Amazon Developer Hackathon**, starting October 7, 2026. Proposed primary track: **Alexa+**. Official submission is not confirmed. Public source: https://github.com/hamoodaldurey-create/homerelay. Public English-captioned demonstration: https://www.youtube.com/watch?v=0URpycdpzP0 (1:54).
 
 ## The problem and the working flow
 
@@ -69,8 +69,8 @@ The 17 regression tests cover feasible handoffs, capability shortages, alternati
 - No live Alexa+/device connection or LLM interpretation; this is a real MCP server plus an explicit-scenario web simulation.
 - No external messages or independently verified household acknowledgments.
 - No task dependencies, travel-time estimation, or claim of globally optimal schedules.
-- An updated public English video under three minutes remains required before official entry completion.
-- No AWS Builder, Bee, Fire TV, or Ring claims. The public MIT-licensed repository is available for an Open Source mini-challenge entry.
+- Public demo video: https://www.youtube.com/watch?v=0URpycdpzP0. It labels the October 7 core workflow footage and summarizes verified October 8 changes. Fresh footage of the improved UI is pending.
+- No AWS Builder, Bee, Fire TV, or Ring claims. A separate qualifying contribution would be needed before claiming the Open Source mini challenge; the primary project alone is not claimed as an additional contribution.
 
 ## License
 
@@ -79,3 +79,5 @@ MIT. Bundled dependencies retain their own licenses.
 ## Source snapshot
 
 The full tested source is in `source.zip`. Extract it into a new directory before running the commands above. The snapshot includes app routes, MCP tools, planner, tests, migration, assets, and the locked dependency setup.
+
+Official entry status: awaiting Amazon hackathon registration and eligibility/rules agreement in Devpost. Video publication is complete; competition submission is not confirmed.

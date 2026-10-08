@@ -11,8 +11,8 @@ Updated October 8, 2026. **Official competition submission is not confirmed.**
 | Demo | https://homerelay-hamood.hamood-al-du-3093.chatgpt.site |
 | Source repository | https://github.com/hamoodaldurey-create/homerelay |
 | License | MIT |
-| Demo video | Earlier recording exists; update and public upload remain pending |
-| Optional mini challenge | Open Source — public MIT repository verified |
+| Demo video | https://www.youtube.com/watch?v=0URpycdpzP0 — public, 1:54, English captions |
+| Optional mini challenge | Not claimed; a separate qualifying contribution has not been prepared |
 | AWS Builder | Not entered; no AWS service integration is claimed |
 
 ## Inspiration
@@ -75,7 +75,7 @@ Automated checks do not establish live Alexa+ compatibility, public video availa
 | 2:00–2:25 | MCP connection verification and three tools | “This is MCP 2025-11-25 over Streamable HTTP. The tools calculate drafts and never send messages or approve changes.” |
 | 2:25–2:40 | Brief close on the working app | “The data is fictional. This is an Alexa+ web simulation with a real MCP server; no live device connection or LLM is claimed.” |
 
-Record the actual app in English. Keep the final public YouTube/Vimeo video under three minutes, without copyrighted music or footage. The prior video needs refreshing for the new approval/persistence behavior.
+Published video: https://www.youtube.com/watch?v=0URpycdpzP0. Duration 1:54, with English captions. It explicitly labels October 7 core workflow footage and a summary of verified October 8 code improvements; fresh footage of the improved interface remains pending. The new title/end cards do not claim to be new UI footage.
 
 ## Potential impact
 
@@ -96,7 +96,7 @@ No AWS, Bee, Fire TV, or Ring integration is claimed. Any friction entry must de
 ## Before official entry completion
 
 - Verify final deployed demo and build evidence.
-- Publish the exact source, assets, instructions, and MIT license in an accessible GitHub repository.
-- Refresh and upload the English demonstration to a public YouTube or Vimeo URL.
-- Fill the actual Devpost entry, feedback, track, and optional Open Source fields.
+- Public MIT repository verified: https://github.com/hamoodaldurey-create/homerelay. Complete source, assets, tests and run instructions are in source.zip.
+- Public English-captioned demonstration published: https://www.youtube.com/watch?v=0URpycdpzP0.
+- Register for the Amazon hackathon, then fill the actual Devpost entry, feedback, and Alexa+ track fields. Do not claim the optional Open Source challenge without a separate qualifying contribution.
 - Complete eligibility/terms and final submission, then retain Devpost's receipt. A prepared draft is not a submitted entry.
